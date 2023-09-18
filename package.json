@@ -1,0 +1,21 @@
+{
+  "name": "pw-test",
+  "version": "1.0.0",
+  "description": "E2E tests written in playwright",
+  "scripts": {
+    "format": "npx prettier --write .",
+    "lint": "eslint **/*.ts",
+    "clean": "rm -rf results",
+    "test": "npm run clean && npx playwright test --config ./config/playwright.config.ts --headed"
+  },
+  "author": "Ramesh Rengasamy",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-playwright": "^0.16.0",
+    "playwright": "^1.38.0",
+    "prettier": "^3.0.3"
+  }
+}

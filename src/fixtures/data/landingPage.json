@@ -1,0 +1,14 @@
+{
+  "titleText": "Golden-Layout API Test",
+  "standardLayoutDDValue": "standard",
+  "componentLayoutDDValue": "component",
+  "lextCorpComponentTitle": "LexCorp plc",
+  "color": "blue",
+  "eventComponentDDValue": "event",
+  "testEvent": "Test event 123",
+  "componentToRemovePartialText": "comp",
+  "componentLayoutText": "Layout component",
+  "reloadSavedLayoutInnerText": "Reload saved Layout",
+  "dragTab": "comp 1",
+  "dropTab": "LexCorp"
+}

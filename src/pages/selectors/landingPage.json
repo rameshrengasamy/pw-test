@@ -1,0 +1,20 @@
+{
+  "layoutDropDown": "#layoutSelect",
+  "componentDropDown": "#registeredComponentTypesForAddSelect",
+  "loadLayoutButton": "#loadLayoutButton",
+  "layoutTabs": "//div[contains(@title, {title})]",
+  "layoutContainerColumn": "div.lm_column",
+  "layoutComponentText": "#layoutContainer p",
+  "componentText": "//p[contains(text(), {title})]",
+  "componentTextInput": "//p[contains(text(), {title})]//following-sibling::input",
+  "addComponentDropDown": "#registeredComponentTypesForAddSelect",
+  "addComponentButton": "#addComponentButton",
+  "eventInputField": "//button[contains(text(), 'SEND EVENT')] [not(contains(../@style, 'display: none;'))]/preceding-sibling::input",
+  "sendEventBtn": "//button[contains(text(), 'SEND EVENT')] [not(contains(../@style, 'display: none;'))]",
+  "eventRecievedConfirmationSpan": "//button[contains(text(), 'SEND EVENT')] [not(contains(../@style, 'display: none;'))]/following-sibling::span",
+  "closeTabs": "//span[contains(text(),{title})]/following-sibling::div[@class='lm_close_tab']",
+  "nonActiveCompTabsClose": "//div[contains(@title, 'comp')][not(contains(@class,'lm_active'))]//following-sibling::div[@class='lm_close_tab']",
+  "componentsSelector": "//span[contains(text(),{title})]",
+  "saveLayout": "#saveLayoutButton",
+  "reloadSavedLayoutBtn": "#reloadSavedLayoutButton"
+}
